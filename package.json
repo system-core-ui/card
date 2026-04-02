@@ -42,6 +42,7 @@
     "@testing-library/jest-dom": "^6.9.0",
     "@testing-library/react": "^16.3.0",
     "@thanh-libs/theme": "*",
+    "@thanh-libs/utils": "*",
     "@vitejs/plugin-react": "^4.2.0",
     "jest-axe": "^10.0.0",
     "jsdom": "~22.1.0",
