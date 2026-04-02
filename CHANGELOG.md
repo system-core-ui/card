@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4-alpha.0](https://github.com/qthan1004/react-lib-workspace/compare/v0.0.3...v0.0.4-alpha.0) (2026-04-02)
+
+
+### Bug Fixes
+
+* **deps:** add @thanh-libs/utils to devDependencies ([fbca176](https://github.com/qthan1004/react-lib-workspace/commit/fbca176b918f943a80734b90194c295b4e54c4bb))
+
 ### [0.0.3](https://github.com/qthan1004/react-lib-workspace/compare/v0.0.3-alpha.0...v0.0.3) (2026-04-01)
 
 ### [0.0.3-alpha.0](https://github.com/qthan1004/react-lib-workspace/compare/v0.0.2...v0.0.3-alpha.0) (2026-04-01)
