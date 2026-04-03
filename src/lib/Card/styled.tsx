@@ -2,6 +2,7 @@ import { CSSObject, useTheme } from '@emotion/react';
 import styled from '@emotion/styled';
 
 import { ThemeSchema } from '@thanh-libs/theme';
+import { pxToRem } from '@thanh-libs/utils';
 
 import type { CardVariant } from '../models';
 
@@ -31,7 +32,7 @@ export const CardStyled = styled.div<CardStyledProps>(
     const variants: Record<CardVariant, CSSObject> = {
       outlined: {
         backgroundColor: palette?.background?.default ?? '#fff',
-        border: `1px solid ${palette?.divider ?? '#e0e0e0'}`,
+        border: `${pxToRem(1)} solid ${palette?.divider ?? '#e0e0e0'}`,
       },
       elevated: {
         backgroundColor: palette?.background?.default ?? '#fff',
